@@ -9,6 +9,7 @@ body {
     border-radius: 5%;
     display: inline-grid;
     grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
 }
 
 .see>a {
@@ -17,7 +18,13 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 5%;
-    grid-column: 2/2;
+    margin-left: 37%;
+}
+h1, .inventor {
+    margin-left: 35%;
+}
+h1 {
+    color: red;
 }
 
 a:hover {
@@ -41,11 +48,19 @@ a:hover {
     grid-column: 2/2;
 }*/
 
-.photo>img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.timphoto {
     border-radius: 50%;
-    display: -moz-inline-grid;
-    grid-template-columns: auto auto auto;
+    margin-left: 35%;
+    
+}
+.resume {
+    margin-left: 15%;
+    height: 5%;
+}
+.bio {
+    width: 50%;
+    margin-left: 28%;
+}
+.fav {
+    margin-left: 50%;
 }
